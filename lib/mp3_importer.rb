@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    @path
+    file = @path.map {|content| content}
   end
 
 end
