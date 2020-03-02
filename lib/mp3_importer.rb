@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    print @path.Dir.glob("mp3s")
+    print Dir.glob("#{@path}")
   end
 
 end
