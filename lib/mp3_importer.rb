@@ -8,6 +8,7 @@ class MP3Importer
 
   def files
     mp3_directory = Dir.glob("#{@path}")
+    print mp3_directory
   end
 
 end
