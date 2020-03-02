@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    mp3_directory = Dir.glob("#{@path}")
+    mp3_directory = Dir.chdir("#{@path}")
     print mp3_directory
   end
 
