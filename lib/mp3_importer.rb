@@ -9,7 +9,7 @@ class MP3Importer
   def files
     filenames = []
     Dir.each_child(@path) {|filename| filenames << filename}
-    filenames
+    print filenames
   end
 
 end
