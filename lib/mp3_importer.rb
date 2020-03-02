@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    file = @path.map {|content| content}
+    Dir.glob(".mp3")
   end
 
 end
