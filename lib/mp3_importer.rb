@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    Dir.each_child(@path) 
+    Dir.each_child(@path) {|filename| filename}
   end
 
 end
