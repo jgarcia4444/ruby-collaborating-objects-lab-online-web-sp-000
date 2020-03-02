@@ -17,7 +17,6 @@ class Song
     song = Song.new(filename_array[1])
     artist.add_song(song)
     song
-
   end
 
 end
