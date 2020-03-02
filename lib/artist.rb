@@ -26,7 +26,7 @@ class Artist
       end
     end
     artist = Artist.new(name)
-    artrist
+    artist
   end
 
 end
