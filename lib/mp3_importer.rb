@@ -7,7 +7,8 @@ class MP3Importer
   end
 
   def files
-    print Dir.chdir("#{@path}")
+    filenames = Dir.chdir("#{@path}")
+    print filenames
   end
 
 end
