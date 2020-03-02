@@ -7,8 +7,7 @@ class MP3Importer
   end
 
   def files
-    filenames = Dir.glob("@path").children
-    print filenames
+    Dir.chdir("#{@path}").children
   end
 
 end
