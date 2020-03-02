@@ -7,8 +7,7 @@ class MP3Importer
   end
 
   def files
-    filenames = Dir.entries(@path)
-    print filenames 
+    Dir.each_child(@path) 
   end
 
 end
