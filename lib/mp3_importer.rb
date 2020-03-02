@@ -12,4 +12,7 @@ class MP3Importer
     filenames
   end
 
+  def import
+  end
+
 end
