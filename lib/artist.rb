@@ -25,6 +25,8 @@ class Artist
         return artist
       end
     end
+    artist = Artist.new(name)
+    artrist
   end
 
 end
