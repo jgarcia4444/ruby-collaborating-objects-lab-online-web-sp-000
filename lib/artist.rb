@@ -20,6 +20,8 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
+    @@all.each do |artist|
+    end
   end
 
 end
